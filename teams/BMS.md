@@ -8,7 +8,7 @@
   - Member 3 — 610303187
 
 - Each member's domain:
-  - Bardia Barghi:
-  - Mohsen Molaei:
-  - Shayan Goorani:
+  - Bardia Barghi
+  - Mohsen Molaei
+  - Shayan Goorani
 
