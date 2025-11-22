@@ -79,8 +79,7 @@ git checkout -b student-name
 | نام تیم | برنچ تیمی | اعضا (شماره دانشجویی) | لینک فایل تیم |
 |---------|-----------|------------------------|---------------|
 | مثال | `team/example` | 401234567، 401234568 | [teams/example.md](./teams/example.md) |
-<!-- ردیف تیم خودتون رو اینجا اضافه کنید -->
-
+`team/BMS` | 610303118، 610303206, 610303187 | [teams/BMS.md](./teams/BMS.md) 
 ## لینک‌های مفید
 
 - [مستندات Frontend Playbook](./docs/frontend_playbook.md)
