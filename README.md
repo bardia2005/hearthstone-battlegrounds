@@ -721,8 +721,8 @@ git commit -m "Deimi - Update API documentation"
 اول کدتون رو به fork خودتون push کنید:
 
 ```bash
-# مطمئن بشید روی branch شخصی خودتون هستید
 git checkout student-name
+# مطمئن بشید روی branch شخصی خودتون هستید
 
 # تغییرات رو commit کنید
 git add .
@@ -765,9 +765,10 @@ git push origin student-name
 بعد از merge، همه اعضای تیم باید کدهای تیمی رو sync کنن:
 
 ```bash
+
+git remote add team-fork https://github.com/TEAM-MEMBER-USERNAME/hearthstone-battlegrounds-1.git
 # اگه branch تیمی روی fork یکی از اعضاست:
 # 1. remote اون fork رو اضافه کنید (اگه قبلاً اضافه نکردید)
-git remote add team-fork https://github.com/TEAM-MEMBER-USERNAME/hearthstone-battlegrounds-1.git
 
 # 2. به branch تیمی برید و sync کنید
 git checkout team/robert
@@ -793,8 +794,9 @@ git pull team-fork team/robert  # یا git pull origin team/robert اگر سرگ
 **نکته مهم:** برای sync کردن از `git pull` استفاده کنید. این دستور خودش `fetch` و `merge` رو انجام می‌ده، پس نیازی به اجرای جداگانه نیستن.
 
 ```bash
-# اگه branch تیمی روی fork یکی از اعضاست:
 git checkout team/robert
+# اگه branch تیمی روی fork یکی از اعضاست:
+
 git pull team-fork team/robert  # یا git pull origin team/robert اگر سرگروه هستید
 git checkout student-name
 git pull team-fork team/robert  # یا git pull origin team/robert اگر سرگروه هستید
@@ -819,8 +821,8 @@ git pull team-fork team/robert  # یا git pull origin team/robert اگر سرگ
 اول از همه باید مطمئن بشید که همه کدها به branch تیمی merge شدن:
 
 ```bash
-# به branch تیمی برید
 git checkout team/robert
+# به branch تیمی برید
 
 # مطمئن بشید همه تغییرات جدید رو گرفتید
 git pull team-fork team/robert  # یا git pull origin team/robert اگه branch تیمی روی fork خودتون هست
@@ -834,8 +836,8 @@ git log --oneline
 بررسی کنید که همه اعضای تیم commit های معنی‌دار داشته‌ان:
 
 ```bash
-# تاریخچه commit ها رو ببینید
 git log --oneline --all
+# تاریخچه commit ها رو ببینید
 
 # ببینید چه کسایی commit داشتن
 git shortlog -sn
@@ -899,8 +901,8 @@ Repository: https://github.com/Deimi/hearthstone-battlegrounds-1
 
 **راه حل:**
 ```bash
-# بررسی کنید URL درست باشه
 git remote -v
+# بررسی کنید URL درست باشه
 
 # اگه مشکل دارید، دوباره clone کنید
 cd ..
@@ -912,8 +914,8 @@ git clone https://github.com/YOUR-USERNAME/hearthstone-battlegrounds-1.git
 
 **راه حل:**
 ```bash
-# بررسی کنید upstream اضافه شده
 git remote -v
+# بررسی کنید upstream اضافه شده
 
 # اگه نیست، اضافه کنید
 git remote add upstream https://github.com/ORIGINAL-OWNER/hearthstone-battlegrounds-1.git
@@ -934,9 +936,9 @@ git remote -v
 این یکی از شایع‌ترین مشکلاته. نگران نباشید، حلش آسونه:
 
 ```bash
-# 1. قبل از merge، همیشه کدهای تیم رو pull کنید
 git checkout student-name
 git pull team-fork team/robert
+# 1. قبل از merge، همیشه کدهای تیم رو pull کنید
 
 # 2. اگه conflict پیش اومد:
 # فایل‌های conflict شده رو باز کنید
