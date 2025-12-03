@@ -10,7 +10,7 @@
 
 - Each member's domain:
   - Bardia Barghi
-  - Amirmahdi Esmaeil-vandi
+  - Amirmahdi Esmaeilvandi
   - Mohsen Molaei
   - Shayan Goorani
 
