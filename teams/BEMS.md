@@ -4,7 +4,7 @@
 
 - Members:
   - Member 1 — 610303118
-  - Member 2 - 610004031
+  - Member 2 — 610004031
   - Member 3 — 610303206
   - Member 4 — 610303187
 
