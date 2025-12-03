@@ -79,7 +79,7 @@ git checkout -b student-name
 | نام تیم | برنچ تیمی | اعضا (شماره دانشجویی) | لینک فایل تیم |
 |---------|-----------|------------------------|---------------|
 | مثال | `team/example` | 401234567، 401234568 | [teams/example.md](./teams/example.md) |
-| BMS | [BMS](https://github.com/bardia2005/hearthstone-battlegrounds) | 610303118، 610303206, 610303187 | [teams/BMS.md](./teams/BMS.md) |
+| BEMS | [BEMS](https://github.com/bardia2005/hearthstone-battlegrounds) | 610303118، 610004031, 610303206, 610303187 | [teams/BEMS.md](./teams/BEMS.md) |
 ## لینک‌های مفید
 
 - [مستندات Frontend Playbook](./docs/frontend_playbook.md)
